@@ -1,0 +1,19 @@
+.container-fluid{
+    margin-left: -10px;
+    line-height:50px;
+    position: relative;
+
+}
+
+.navbar-nav{
+ margin-left: 600px;
+ line-height:50px;
+}
+
+
+img{
+    width: 75%;
+}
+.one h1{
+    font-size:50px;
+}
