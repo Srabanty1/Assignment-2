@@ -14,9 +14,7 @@
 img{
     width: 75%;
 }
-.one h1{
-    font-size:50px;
-}
+
 
 .h-100 img{
     width:400px;
@@ -26,23 +24,37 @@ img{
 .btn-success{
     height:110%;
     width:20%;
+    
 }
-.last-img{
-    width:650px;
-    margin-right:100px;
-      
-  }
-.last{
-    margin-left: 600px;
+
+.first-half{
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    Width:1600px;
+    max-width: 90%;
+    margin:0 auto;
 }
-.special{
-    border-radius: 40px;
+.picture img{
+    height:50px;
+    width:50px;
+    margin-right: 20px;
 }
-.smallest{
-    width:60px;
-    height:60px;
-    float:left;
+
+.picture{
+    display: flex;
+    align-items:initial;
+    font-size: 10px;
 }
-.card-body{
- 
+
+.fourth-step{
+    
+    Width:1300px;
+    max-width: 90%;
+    margin:0 auto; 
+}
+.third-step{
+    
+    Width:1300px;
+    max-width: 90%;
+    margin:0 auto; 
 }
