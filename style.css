@@ -17,3 +17,13 @@ img{
 .one h1{
     font-size:50px;
 }
+
+.h-100 img{
+    width:400px;
+}
+
+
+.btn-success{
+    height:110%;
+    width:20%;
+}
