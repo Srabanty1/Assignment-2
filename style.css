@@ -27,3 +27,22 @@ img{
     height:110%;
     width:20%;
 }
+.last-img{
+    width:650px;
+    margin-right:100px;
+      
+  }
+.last{
+    margin-left: 600px;
+}
+.special{
+    border-radius: 40px;
+}
+.smallest{
+    width:60px;
+    height:60px;
+    float:left;
+}
+.card-body{
+ 
+}
