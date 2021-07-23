@@ -1,3 +1,9 @@
+main{
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+
+
 .container-fluid{
     margin-left: -10px;
     line-height:50px;
@@ -17,15 +23,21 @@ img{
 
 .third-step{
     
-    Width:1300px;
-    max-width: 90%;
+    Width:1500px;
+    max-width: 100%;
+    
+  
     margin:0 auto; 
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .fourth-step{
     
-    Width:1300px;
+    Width:1500px;
     max-width: 90%;
-    margin:0 auto; 
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr); 
 }
 .btn-success{
     height:80%;
@@ -36,14 +48,16 @@ img{
 .h-100 img{
     width:400px;
 }
-h1{
-   font-size:20px ;
+
+
+#penguin{
+   font-size:60px ;
 }
 
 
 
 .first-half{
-   width:85%;
+   width:100%;
 }
 .picture-card img{
     height:50px;
@@ -54,8 +68,9 @@ h1{
 .picture-card{
     border:5px solid lightgrey;
     padding: 10px 50px 10px 50px;
-    border-radius: 8px;
-    margin-left: 300px;
+    border-radius: 2%;
+    margin-left: 1800%;
+    width:75%;
 }
 
 
@@ -69,7 +84,66 @@ h1{
 }
 
 .last{
-    display: flex;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:30px;
+    margin-top:20px;
     margin-left: 250px;
-    margin-right: 210px;
+    margin-right: 250px;
+    
+
+}
+@media(max-width:576px){
+    .last{
+       
+        grid-template-columns: repeat(1,1fr);
+        margin-left:0px;
+        
+    
+    }
+}
+
+
+
+#trolly-pic{
+    float:none;
+}
+
+@media(max-width:576px){
+    .last{
+        grid-template-columns: repeat(1,2fr);
+        margin-left:0px;
+        
+    
+    }
+}
+
+@media(max-width:576px){.third-step{
+    Width:1300px;
+    max-width: 90%;
+    margin:0 auto; 
+    grid-template-columns: repeat(1,1fr);
+}
+@media(max-width:992px){.third-step{
+   
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+    
+}
+@media(max-width:576px){.fourth-step{
+    
+    
+    grid-template-columns: repeat(1,1fr);
+}
+    
+}
+@media(max-width:992px){.fourth-step{
+   
+    
+    grid-template-columns: repeat(3,1fr);
+}
+
 }
